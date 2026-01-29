@@ -6339,6 +6339,54 @@
             ],
             "explorer_block_url": "block/"
     },
+    "HRC": {
+            "coin": "HRC",
+            "type": "UTXO",
+            "name": "Hypercoin",
+            "coinpaprika_id": "hrc-hypercoin",
+            "coingecko_id": "hypercoin",
+            "livecoinwatch_id": "HRC",
+            "explorer_url": "https://explorer.hypercoin.network/",
+            "explorer_tx_url": "",
+            "explorer_address_url": "",
+            "supported": [],
+            "active": false,
+            "is_testnet": false,
+            "currently_enabled": false,
+            "wallet_only": false,
+            "sign_message_prefix": "hypercoin Signed Message:\n",
+            "fname": "Hypercoin",
+            "rpcport": 8992,
+            "pubtype": 0,
+            "p2shtype": 5,
+            "wiftype": 128,
+            "txfee": 0,
+            "force_min_relay_fee": true,
+            "dust": 1000000,
+            "mm2": 1,
+            "required_confirmations": 2,
+            "avg_blocktime": 60,
+            "protocol": {
+                "type": "UTXO"
+            },
+            "derivation_path": "m/44'/1935'",
+            "trezor_coin": "Hypercoin",
+            "links": {
+                "github": "https://github.com/hypercoin-prj/hypercoin",
+                "homepage": "https://hypercoin.network"
+            },
+            "electrum": [
+                {
+                    "url": "electrumx1.hypercoin.network:50001",
+                    "protocol": "TCP"
+                },
+                {
+                    "url": "electrumx2.hypercoin.network:50001",
+                    "protocol": "TCP"
+                }
+            ],
+            "explorer_block_url": "block/"
+    },
     "BTC-segwit": {
         "coin": "BTC-segwit",
         "type": "UTXO",
